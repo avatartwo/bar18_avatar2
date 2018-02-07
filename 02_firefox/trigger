@@ -1,0 +1,6 @@
+<!DOCTYPE html>
+<script>
+var canvas3D = document.createElement('canvas');
+var gl = canvas3D.getContext('webgl');
+    gl.readPixels(0, 2147483647, 1, 1, gl.RGBA, gl.UNSIGNED_BYTE, new Uint8Array(4));
+</script>
